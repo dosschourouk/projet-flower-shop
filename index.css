@@ -1,0 +1,78 @@
+/* Réinitialisation des styles par défaut */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 143, 143); /* Couleur d'arrière-plan */
+    font-family: Arial, sans-serif; /* Police par défaut */
+    
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: rgb(255, 143, 143); /* Couleur d'arrière-plan */
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Style du formulaire */
+.formulaire {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulaire h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input input[type="text"],
+.input input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.bouton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.bouton:hover {
+    background-color: #0056b3;
+}
+
+/* Media query pour les écrans plus petits */
+@media screen and (max-width: 600px) {
+    .formulaire {
+        max-width: 100%;
+    }
+}
