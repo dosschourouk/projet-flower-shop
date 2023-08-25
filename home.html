@@ -22,16 +22,14 @@
                 <a href="#home" class="active">home</a>
                 <a href="#bestsellers">best sellers</a>
                 <a href="#products">products</a>
-                <a href="#comment">comment</a>
+                <a href="commentaires.html">comment</a>
                 <a href="inscrire.html">contact</a>
             </div>
         </nav>
 
         <div class="icons">
             <i class="fas fa-bars" id="menu"></i>
-            <i class="fas fa-heart"></i>
-            <i class="fas fa-user"></i>
-            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-shopping-cart"></i> <span class="quantity"> 0 </span>
         </div>
     </header>
 
@@ -46,24 +44,42 @@
 
     </section>
 
+    <div id="h1">
+        <h1>Meilleures ventes</h1>
+    </div>
+    <section class="product-list">
+        <div class="product">
+            <img src="imagess.jpg" alt="Best Seller 1">
+            <h2>Rose Elegance</h2>
+
+            <p class="price">90dt</p>
+            <button>Ajouter au panier</button>
+        </div>
+        <div class="product">
+            <img src="imagesss.jpg" alt="Best Seller 2">
+            <h2>Lily Enchantment</h2>
+            <p class="price">90dt</p>
+            <button>Ajouter au panier</button>
+        </div>
+        <!-- Add more product entries as needed -->
+    </section>
 
 
 
     <section class="products" id="products">
         <div class="heading">
-            <h1><span>latest </span> Products</h1>
+            <h1>Découvrir nos produits</h1>
         </div>
 
         <div class="box-container">
             <div class="box">
                 <div class="image">
                     <p>-30%</p>
-                    <img src="images (3).jpg"
-                        alt="">
+                    <img src="images (3).jpg" alt="">
                     <div class="icons">
-                        <i class="fas fa-heart"></i>
-                        <a class="btn">ajouter au pannier</a>
-                        <i class="fas fa-shopping-cart"></i>
+
+                        <button onclick="ajouteraupanier(1)">Ajouter au panier</button>
+
                     </div>
                 </div>
 
@@ -76,12 +92,11 @@
             <div class="box">
                 <div class="image">
                     <p>-30%</p>
-                    <img src="images (4).jpg"
-                        alt="">
+                    <img src="images (4).jpg" alt="">
                     <div class="icons">
-                        <i class="fas fa-heart"></i>
-                        <a class="btn">ajouter au panier</a>
-                        <i class="fas fa-shopping-cart"></i>
+
+                        <button onclick="ajouteraupanier(2)">Ajouter au panier</button>
+
                     </div>
                 </div>
 
@@ -94,12 +109,11 @@
             <div class="box">
                 <div class="image">
                     <p>-30%</p>
-                    <img alt=""
-                        src="téléchargement.jpg">
+                    <img alt="" src="téléchargement.jpg">
                     <div class="icons">
-                        <i class="fas fa-heart"></i>
-                        <a class="btn">ajouter au panier</a>
-                        <i class="fas fa-shopping-cart"></i>
+
+                        <button onclick="ajouteraupanier(3)">Ajouter au panier</button>
+
                     </div>
                 </div>
 
@@ -112,12 +126,11 @@
             <div class="box">
                 <div class="image">
                     <p>-30%</p>
-                    <img alt=""
-                        src="téléchargement (3).jpg">
+                    <img alt="" src="téléchargement (3).jpg">
                     <div class="icons">
-                        <i class="fas fa-heart"></i>
-                        <a class="btn">ajouter au panier</a>
-                        <i class="fas fa-shopping-cart"></i>
+
+                        <button onclick="ajouteraupanier(4)">Ajouter au panier</button>
+
                     </div>
                 </div>
 
@@ -130,12 +143,11 @@
             <div class="box">
                 <div class="image">
                     <p>-30%</p>
-                    <img alt=""
-                        src="téléchargement3.jpg">
+                    <img alt="" src="téléchargement3.jpg">
                     <div class="icons">
-                        <i class="fas fa-heart"></i>
-                        <a class="btn">ajouter au panier</a>
-                        <i class="fas fa-shopping-cart"></i>
+
+                        <button onclick="ajouteraupanier(5)">Ajouter au panier</button>
+
                     </div>
                 </div>
 
@@ -148,12 +160,11 @@
             <div class="box">
                 <div class="image">
                     <p>-30%</p>
-                    <img alt=""
-                        src="téléchargement (1).jpg">
+                    <img alt="" src="téléchargement (1).jpg">
                     <div class="icons">
-                        <i class="fas fa-heart"></i>
-                        <a class="btn">ajouter au panier</a>
-                        <i class="fas fa-shopping-cart"></i>
+
+                        <button onclick="ajouteraupanier(6)">Ajouter au panier</button>
+
                     </div>
                 </div>
 
@@ -166,12 +177,11 @@
             <div class="box">
                 <div class="image">
                     <p>-30%</p>
-                    <img alt=""
-                        src="téléchargementtt.jpg">
+                    <img alt="" src="téléchargementtt.jpg">
                     <div class="icons">
-                        <i class="fas fa-heart"></i>
-                        <a class="btn">ajouter au panier</a>
-                        <i class="fas fa-shopping-cart"></i>
+
+                        <button onclick="ajouteraupanier(7)">Ajouter au panier</button>
+
                     </div>
                 </div>
 
@@ -186,9 +196,9 @@
                     <p>-30%</p>
                     <img alt="" src="images (1).jpg">
                     <div class="icons">
-                        <i class="fas fa-heart"></i>
-                        <a class="btn">ajouter au panier</a>
-                        <i class="fas fa-shopping-cart"></i>
+
+                        <button onclick="ajouteraupanier(8)">Ajouter au panier</button>
+
                     </div>
                 </div>
 
@@ -203,9 +213,9 @@
                     <p>-30%</p>
                     <img alt="" src="images (2).jpg">
                     <div class="icons">
-                        <i class="fas fa-heart"></i>
-                        <a class="btn">ajouter au panier</a>
-                        <i class="fas fa-shopping-cart"></i>
+
+                        <button onclick="ajouteraupanier(9)">Ajouter au panier</button>
+
                     </div>
                 </div>
 
@@ -216,10 +226,6 @@
             </div>
         </div>
     </section>
-
-
-
-
 
     <script src="images (3).jpg"></script>
     <script src="main.js"></script>
