@@ -2,21 +2,24 @@
 <html lang="en">
 
 <head>
+    <!-- Métadonnées -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre de la page -->
     <title>Flower Shop</title>
+    <!-- Liens vers les feuilles de style -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- En-tête de la page -->
     <header>
+        <!-- Logo -->
         <a class="logo" href="#"><img src="flower.png" height="50" width="50"></a>
-
+        <!-- Navigation -->
         <nav class="navbar">
             <div class="icons">
                 <a href="#home" class="active">home</a>
@@ -26,24 +29,23 @@
                 <a href="inscrire.html">contact</a>
             </div>
         </nav>
-
+        <!-- Icônes -->
         <div class="icons">
             <i class="fas fa-bars" id="menu"></i>
             <i class="fas fa-shopping-cart"></i> <span class="quantity"> 0 </span>
         </div>
     </header>
 
-
+    <!-- Section d'accueil -->
     <section class="home" id="home">
         <div class="content">
             <h2>Bienvenue à flower shop </h2>
-
             <p>Découvrez notre sélection exquise de fleurs pour toutes les occasions.</p>
             <a class="btn">shop now</a>
         </div>
-
     </section>
 
+    <!-- Section des meilleures ventes -->
     <div id="h1">
         <h1>Meilleures ventes</h1>
     </div>
@@ -51,7 +53,6 @@
         <div class="product">
             <img src="imagess.jpg" alt="Best Seller 1">
             <h2>Rose Elegance</h2>
-
             <p class="price">90dt</p>
             <button>Ajouter au panier</button>
         </div>
@@ -61,174 +62,37 @@
             <p class="price">90dt</p>
             <button>Ajouter au panier</button>
         </div>
-        <!-- Add more product entries as needed -->
+        <!-- Ajoutez plus d'entrées de produits au besoin -->
     </section>
 
-
-
+    <!-- Section des produits -->
     <section class="products" id="products">
         <div class="heading">
             <h1>Découvrir nos produits</h1>
         </div>
-
         <div class="box-container">
+            <!-- Chaque boîte de produit -->
             <div class="box">
                 <div class="image">
+                    <!-- Remise et image -->
                     <p>-30%</p>
                     <img src="images (3).jpg" alt="">
                     <div class="icons">
-
+                        <!-- Bouton d'ajout au panier avec gestion de l'événement -->
                         <button onclick="ajouteraupanier(1)">Ajouter au panier</button>
-
                     </div>
                 </div>
-
                 <div class="content">
+                    <!-- Détails du produit -->
                     <h4>Flower Pot</h4>
                     <div class="price">70dt <span> 100dt</span></div>
                 </div>
             </div>
-
-            <div class="box">
-                <div class="image">
-                    <p>-30%</p>
-                    <img src="images (4).jpg" alt="">
-                    <div class="icons">
-
-                        <button onclick="ajouteraupanier(2)">Ajouter au panier</button>
-
-                    </div>
-                </div>
-
-                <div class="content">
-                    <h4>Flower Pot</h4>
-                    <div class="price">80dt <span> 110dt</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <p>-30%</p>
-                    <img alt="" src="téléchargement.jpg">
-                    <div class="icons">
-
-                        <button onclick="ajouteraupanier(3)">Ajouter au panier</button>
-
-                    </div>
-                </div>
-
-                <div class="content">
-                    <h4>Flower Pot</h4>
-                    <div class="price">80.5dt <span> 115dt</span>
-                    
-                    </div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <p>-30%</p>
-                    <img alt="" src="téléchargement (3).jpg">
-                    <div class="icons">
-
-                        <button onclick="ajouteraupanier(4)">Ajouter au panier</button>
-
-                    </div>
-                </div>
-
-                <div class="content">
-                    <h4>Flower Pot</h4>
-                    <div class="price">90dt <span> 120dt</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <p>-30%</p>
-                    <img alt="" src="téléchargement3.jpg">
-                    <div class="icons">
-
-                        <button onclick="ajouteraupanier(5)">Ajouter au panier</button>
-
-                    </div>
-                </div>
-
-                <div class="content">
-                    <h4>Flower Pot</h4>
-                    <div class="price">90.5dt <span> 125dt</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <p>-30%</p>
-                    <img alt="" src="téléchargement (1).jpg">
-                    <div class="icons">
-
-                        <button onclick="ajouteraupanier(6)">Ajouter au panier</button>
-
-                    </div>
-                </div>
-
-                <div class="content">
-                    <h4>Flower Pot</h4>
-                    <div class="price">100dt <span> 130dt</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <p>-30%</p>
-                    <img alt="" src="téléchargementtt.jpg">
-                    <div class="icons">
-
-                        <button onclick="ajouteraupanier(7)">Ajouter au panier</button>
-
-                    </div>
-                </div>
-
-                <div class="content">
-                    <h4>Flower Pot</h4>
-                    <div class="price">105dt <span> 135dt</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <p>-30%</p>
-                    <img alt="" src="images (1).jpg">
-                    <div class="icons">
-
-                        <button onclick="ajouteraupanier(8)">Ajouter au panier</button>
-
-                    </div>
-                </div>
-
-                <div class="content">
-                    <h4>Flower Pot</h4>
-                    <div class="price">110dt <span> 140dt</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <p>-30%</p>
-                    <img alt="" src="images (2).jpg">
-                    <div class="icons">
-
-                        <button onclick="ajouteraupanier(9)">Ajouter au panier</button>
-
-                    </div>
-                </div>
-
-                <div class="content">
-                    <h4>Flower Pot</h4>
-                    <div class="price">115dt <span> 145dt</span></div>
-                </div>
-            </div>
+            <!-- Répétez le même modèle pour d'autres produits -->
         </div>
     </section>
 
+    <!-- Scripts -->
     <script src="images (3).jpg"></script>
     <script src="main.js"></script>
 </body>

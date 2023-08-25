@@ -1,62 +1,72 @@
+/* Réglages de base pour le corps de la page */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Police par défaut pour le texte */
     margin: 0;
     padding: 0;
-    background: rgb(255, 143, 143);
+    background: rgb(255, 143, 143); /* Couleur de fond de la page */
 }
 
+/* Conteneur principal des commentaires */
 .comments-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 800px; /* Largeur maximale du conteneur */
+    margin: 0 auto; /* Centre horizontalement */
+    padding: 20px; /* Espacement interne */
 }
 
+/* Styles pour le formulaire de commentaire et la liste de commentaires */
 .comment-form,
 .comment-list {
-    margin-bottom: 20px;
-    border: 2px solid black;
-    padding: 15px;
-    border-radius: 5px;
+    margin-bottom: 20px; /* Espacement en bas */
+    border: 2px solid black; /* Bordure */
+    padding: 15px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
 }
 
+/* Styles pour les titres des formulaires et des listes de commentaires */
 .comment-form h2,
 .comment-list h2 {
-    margin-top: 0;
+    margin-top: 0; /* Supprimer la marge supérieure */
 }
 
+/* Styles pour le formulaire de commentaire */
 .comment-form form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Aligner les champs verticalement */
 }
 
+/* Styles pour les champs de formulaire */
 .comment-form input,
 .comment-form textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 5px;
+    margin-bottom: 10px; /* Espacement en bas */
+    padding: 10px; /* Espacement interne */
+    border: 2px solid black; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
 }
 
+/* Styles pour le bouton du formulaire */
 .comment-form button {
-    background-color: black;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    background-color: black; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Supprimer la bordure */
+    padding: 10px 20px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de pointeur au survol */
 }
 
+/* Styles pour chaque commentaire */
 .comment {
-    border: 2px solid black;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    border: 2px solid black; /* Bordure */
+    padding: 10px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    margin-bottom: 10px; /* Espacement en bas */
 }
 
+/* Styles pour les titres de commentaires */
 .comment h3 {
-    margin: 0;
+    margin: 0; /* Supprimer les marges par défaut */
 }
 
+/* Styles pour le texte du commentaire */
 .comment p {
-    margin: 0;
+    margin: 0; /* Supprimer les marges par défaut */
 }

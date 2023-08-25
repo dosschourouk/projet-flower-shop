@@ -1,7 +1,11 @@
+/* Réinitialisation des styles par défaut et configuration générale */
+
+/* Conversion de la taille de police pour faciliter les calculs en REM */
 html {
     font-size: 62.5%;
 }
 
+/* Styles de base pour le corps de la page */
 body {
     overflow-x: hidden;
     margin: 0;
@@ -9,10 +13,7 @@ body {
 
 }
 
-/* section{
-    margin: 5rem;
-} */
-
+/* Boutons génériques */
 
 .btn {
     font-size: 1.5rem;
@@ -51,7 +52,7 @@ section {
     color: #000;
 }
 
-/* header section */
+/* Styles pour l'en-tête de la page */
 
 header {
     position: fixed;
@@ -114,7 +115,7 @@ header .icons #menu {
 
 
 
-/* home section */
+/* Styles spécifiques pour la section d'accueil */
 .home {
     position: relative;
     background: url(flower.jpg);
@@ -149,7 +150,7 @@ header .icons #menu {
 }
 
 
-/* products section */
+/* Styles pour la section des produits */
 .products {
     max-width: 80%;
     position: relative;
@@ -159,9 +160,9 @@ header .icons #menu {
     background: #eee;
 }
 
-.products .heading{
+.products .heading {
     text-align: center;
-      
+
 }
 
 .products .box-container {
@@ -275,43 +276,45 @@ header .icons #menu {
 
 
 
-  /*best sellers*/
-  
-  #h1{
+/*best sellers*/
+
+#h1 {
     text-align: center;
-  }
-  .product-list {
+}
+
+/* Styles spécifiques pour les meilleures ventes */
+
+.product-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
-  }
-  
-  .product {
+}
+
+.product {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
     width: 300px;
     text-align: center;
-  }
-  
-  .product img {
+}
+
+.product img {
     max-width: 100%;
-  }
-  
-  .price {
+}
+
+.price {
     font-weight: bold;
     color: #e44d26;
     margin-top: 10px;
-  }
-  
-  button {
+}
+
+button {
     background-color: #e44d26;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
+}
